@@ -2,9 +2,9 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-#define HEADER 32 /* Line lengths include separators, but are later replaced with null terminators */
-#define HYDROGEN 13
-#define HELIUM 12
+#define HEADER 56 /* Line lengths include separators, but are later replaced with null terminators */
+#define HYDROGEN 31
+#define HELIUM 28
 
 #define RDERR 1 /* Read error */
 #define RDNAV 2 /* Read some data not available */
